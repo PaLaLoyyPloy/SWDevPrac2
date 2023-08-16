@@ -1,0 +1,55 @@
+body.background{
+    background-color:azure;
+}
+
+h1.center{
+    text-align: center;
+}
+
+p.content{
+    font-size: 20px;
+    width: 80vw;
+    background-color:lemonchiffon;
+    margin: 20px 100px 20px 100px;
+    border: 3px dashed;
+    border-color: darkblue;
+    padding: 25px;;
+}
+p.center{
+    text-align: center;
+}
+form{
+    position: relative;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+
+    padding: 20px;
+    background-color: darksalmon;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+input[type="button"]{
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px;
+}
